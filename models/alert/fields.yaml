@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    title:
+        label: Title
+        required: 1
+        type: text
+    message:
+        label: Message
+        type: textarea
+        required: 1
+        size: large
+    type:
+        label: Type
+        type: dropdown
+        required: 1
+        options:
+                info: Info
+                warning: Warning
+                error: Danger
+    finish:
+        label: 'Finish Time'
+        mode: datetime
+        span: auto
+        type: datepicker
+        comment: 'When the alert will disappear'

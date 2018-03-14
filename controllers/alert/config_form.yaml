@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Alert
+
+# Model Form Field configuration
+form: $/suresoftware/webalert/models/alert/fields.yaml
+
+# Model Class name
+modelClass: SureSoftware\WebAlert\Models\Alert
+
+# Default redirect location
+defaultRedirect: suresoftware/webalert/alert
+
+# Create page
+create:
+    title: Create Alert
+    redirect: suresoftware/webalert/alert/update/:id
+    redirectClose: suresoftware/webalert/alert
+
+# Update page
+update:
+    title: Edit Alert
+    redirect: suresoftware/webalert/alert
+    redirectClose: suresoftware/webalert/alert
+
+# Preview page
+preview:
+    title: Preview Alert

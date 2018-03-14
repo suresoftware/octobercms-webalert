@@ -1,0 +1,7 @@
+{% for alert in alert.alerts %}
+    <div class="alert alert-{{ alert.type }} text-center">
+        <h1>{{ alert.title }}</h1>
+        <p>{{ alert.message }}</p>
+        <br />
+    </div>
+{% endfor %}
